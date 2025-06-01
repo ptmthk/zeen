@@ -1,0 +1,19 @@
+body {
+  font-family: 'Inter', sans-serif;
+  /* Tailwind classes on the body tag in index.html handle background and text color. */
+}
+
+/* Custom scrollbar for a more integrated look */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1e293b; /* slate-800 */
+}
+::-webkit-scrollbar-thumb {
+  background: #475569; /* slate-600 */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b; /* slate-500 */
+}
